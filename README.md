@@ -3,5 +3,5 @@ This projecti is implementation of [Butterworth](https://en.wikipedia.org/wiki/B
 
 # Test plots
 <p float="center">
-  <img src="Test.png" height="500">
+  <img src="Test.png" height="750">
 </p></img></img></p>
