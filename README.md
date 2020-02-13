@@ -7,5 +7,6 @@ This project is implementation of [Butterworth](https://en.wikipedia.org/wiki/Bu
 # Test plots
 In the abovementioned SE thread `Ed V` provided analytical expression of *h(t)* of the order 3. I used this fact to check my algorithm:
 <p float="center">
-  <img src="Test.png" height="750">
+  <img src="test/pics/Test.png" height="350">
+  <img src="test/pics/Test.png" height="350">
 </p></img></img></p>
