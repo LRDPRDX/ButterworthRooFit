@@ -8,5 +8,5 @@ This project is implementation of [Butterworth](https://en.wikipedia.org/wiki/Bu
 In the abovementioned SE thread `Ed V` provided analytical expression of *h(t)* of the order 3. I used this fact to check my algorithm:
 <p float="center">
   <img src="test/pics/Test.png" height="750">
-  <img src="test/pics/Frequency.png" height="750">
+  <img src="test/pics/Frequency.png" height="600">
 </p></img></img></p>
