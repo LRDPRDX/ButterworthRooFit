@@ -1,5 +1,5 @@
-#include "Butterworth.C" //use this to run this example as a named macro
-//#include "Butterworth.h"//use this when to compile
+#include "../Butterworth.C" //use this to run this example as a named macro
+//#include "../Butterworth.h"//use this when to compile
 
 #include <RooPlot.h>
 #include <RooCFunction1Binding.h>
