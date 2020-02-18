@@ -1,3 +1,9 @@
+/*=============================*/
+/* This is an example how to   */
+/* create and plot the Butter- */
+/* worth transfer function     */
+/*=============================*/
+
 #include "../Butterworth.cpp" //use this to run this example as a named macro
 //#include "../Butterworth.h"//use this when to compile
 

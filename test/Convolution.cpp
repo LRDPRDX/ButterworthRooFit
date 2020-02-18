@@ -1,12 +1,13 @@
 /*===========================================*/
 /* This is an example of getting the output  */
-/* after Butterworth filter of exponential   */
-/* input :                                   */
+/* after the Butterworth filter provided     */
+/* exponential input :                       */
 /* y(t) = h_3(t) * exp( -t/2 ),              */
 /* where                                     */ 
-/*  h_3(t) - BW of the order 3               */
-/*  * - convolution                          */
+/*      h_3(t) - BW of the order 3           */
+/*      *      - convolution                 */
 /*===========================================*/
+
 #include "../Butterworth.cpp"
 
 #include <RooPlot.h>
