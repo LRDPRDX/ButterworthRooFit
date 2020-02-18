@@ -1,4 +1,4 @@
-#include "../Butterworth.C"
+#include "../Butterworth.cpp"
 
 #include <RooPlot.h>
 #include <RooNumConvolution.h>

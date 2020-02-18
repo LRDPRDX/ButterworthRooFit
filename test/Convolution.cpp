@@ -7,7 +7,7 @@
 /*  h_3(t) - BW of the order 3               */
 /*  * - convolution                          */
 /*===========================================*/
-#include "../Butterworth.C"
+#include "../Butterworth.cpp"
 
 #include <RooPlot.h>
 #include <RooNumConvolution.h>
