@@ -21,8 +21,8 @@ class Butterworth : public RooAbsReal
     public:
         Butterworth() {} ; 
         Butterworth( const char *name, const char *title,
-	                 RooAbsReal& _t,
-	                 RooAbsReal& _omegaC,
+                     RooAbsReal& _t,
+                     RooAbsReal& _omegaC,
                      UInt_t _n );
 
         Butterworth( const Butterworth& other, const char* name = 0 );

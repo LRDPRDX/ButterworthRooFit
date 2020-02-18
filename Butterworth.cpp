@@ -32,11 +32,11 @@ Butterworth::Butterworth( const char *name, const char *title,
 
 
 Butterworth::Butterworth( const Butterworth& other, const char* name ) :  
-   RooAbsReal( other, name ), 
+    RooAbsReal( other, name ), 
 
-   t( "t", this, other. t ),
-   omegaC( "omegaC", this, other.omegaC ),
-   n( other.n )
+    t( "t", this, other. t ),
+    omegaC( "omegaC", this, other.omegaC ),
+    n( other.n )
 { 
 
 } 
