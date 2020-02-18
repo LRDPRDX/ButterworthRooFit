@@ -1,3 +1,12 @@
+/*===========================*/
+/* This is probably the most */
+/* important example. It     */
+/* shows how to get the mag- */
+/* nitude of the  frequency  */
+/* response of the Butter-   */
+/* worth filter --- G(w)     */
+/*===========================*/
+
 #include "../Butterworth.cpp"
 
 #include <RooPlot.h>
@@ -35,7 +44,7 @@ void Frequency()
     Butterworth bw = Butterworth( "bw", "h_{bw}(t)", t, omegaC, 3 );
 
     TF1 *fSin = new TF1( "fSin", Sine, -1, T_MAX, 1 );
-    RooRealVar omega( "omega", "#omega", 0.1, 0.1, 10 );
+    RooRealVar omega( "omega", "#omega", 0.1 );
     RooTFnBinding sine( "Sine", "Sine", fSin, t, omega );
     RooNumConvolution out( "out", "out", t, bw, sine );
 
