@@ -9,7 +9,6 @@
 
 #include <TComplex.h>
 
-#include "RooAbsPdf.h"
 #include "RooRealProxy.h"
 #include "RooCategoryProxy.h"
 #include "RooAbsReal.h"
@@ -17,7 +16,8 @@
 #include "RooAbsCategory.h"
 
 
-class Butterworth : public RooAbsReal {
+class Butterworth : public RooAbsReal
+{
     public:
         Butterworth() {} ; 
         Butterworth( const char *name, const char *title,
@@ -47,7 +47,7 @@ class Butterworth : public RooAbsReal {
 
 
     private:
-        ClassDef(Butterworth,1) // Butterworth filter transfer function in t-domain 
+        ClassDef( Butterworth, 1) // Butterworth filter transfer function in t-domain 
 };
  
 #endif
